@@ -3,6 +3,7 @@ import java.util.Map;
 
 /**
  * Converts a fraction to its decimal string, wrapping repeating parts in parentheses.
+ * Small change to verify auto-merge workflow.
  */
 class Solution1 {
     public String fractionToDecimal(int numerator, int denominator) {
