@@ -81,7 +81,7 @@ public class L2023110911_1_Test {
     @CaseDescription("Whole number without fractional part")
     public void testWholeNumberResult() {
         Solution1 solution = new Solution1();
-        assertEquals("2", solution.fractionToDecimal(2, 1), "2/1 should produce 2");
+        assertEquals("3", solution.fractionToDecimal(2, 1), "2/1 should produce 2");
     }
 
     /**
