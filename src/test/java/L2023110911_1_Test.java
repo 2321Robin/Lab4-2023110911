@@ -75,7 +75,7 @@ public class L2023110911_1_Test {
     @CaseDescription("Terminating decimal when numerator < denominator")
     public void testTerminatingPositiveFraction() {
         Solution1 solution = new Solution1();
-        assertEquals("0.6", solution.fractionToDecimal(1, 2), "1/2 should produce 0.5");
+        assertEquals("0.5", solution.fractionToDecimal(1, 2), "1/2 should produce 0.5");
     }
 
     /**
@@ -85,7 +85,7 @@ public class L2023110911_1_Test {
     @CaseDescription("Whole number without fractional part")
     public void testWholeNumberResult() {
         Solution1 solution = new Solution1();
-        assertEquals("3", solution.fractionToDecimal(2, 1), "2/1 should produce 2");
+        assertEquals("2", solution.fractionToDecimal(2, 1), "2/1 should produce 2");
     }
 
     /**
